@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Kyra Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>    
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Mi Casa</a> </li>   
+                <li><a href="notes.html">Shawty Apreciation</a> </li> 
+                <li><a href="process.html">Orbs</a> </li> 
+                <li><a href="languages.html">Cheese</a> </li> 
+                <li><a href="About.html">U</a> </li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        
+<h1>You</h1>
+        
+    </section>
+    
+<!----------about us content---------->
+ <section class="about-us">
+
+     <div class="row">
+        <div class="about-col">
+        <h1>I love you so much</h1>
+        <p>I dont think its physically possible to describe to you how much I love you. Sometimes (a lot of the time) I worry, I worry that you'll find someone better and just kinda leave me and its a silly thought im p sure but still. I want you to know that I love you I love you I love you so so so much I could never love anyone the same. You have all of my heart. Theres no one who id rather be with.</p>
+            
+         </div>
+         <div class="about-col">
+            <img src="images/LoveCrazy.jpg">
+         </div>
+         
+     </div>
+    
+    
+    
+    </section>
+    
+    
+   
+    
+    
+<!------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+      
+</body>
+</html>

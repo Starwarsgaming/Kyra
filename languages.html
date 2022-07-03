@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Kyra Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>    
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Mi Casa</a> </li>   
+                <li><a href="notes.html">Shawty Apreciation</a> </li> 
+                <li><a href="process.html">Orbs</a> </li> 
+                <li><a href="languages.html">Cheese</a> </li> 
+                <li><a href="About.html">U</a> </li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+     
+        <h1>You make me happy</h1>
+        
+    </section>
+    
+  
+    <!--------languages used -------> 
+    
+    <section class="Languages">
+    
+    <div class="row">
+       <div class="language-col">
+        <h1>Thanks for always making me happy</h1>
+           <p>No one and nothing could ever make me as happy as you do. Except for when you mock my laugh (thats just uncool dawg). But fr I wish I could spend every second with you. You make me smile so much I just cant stop cheesing when im around u :)</p>
+       
+        </div>
+        <div class="language-col">
+            <img src="images/cheese.jpg">
+        </div>
+        
+        
+        
+        </div>
+    
+    
+ 
+        
+    </section>    
+   
+    
+    
+<!------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+      
+</body>
+</html>
